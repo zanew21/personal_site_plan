@@ -16,6 +16,7 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
+    font-family: roboto condensed, sans-serif;
 }
 
 nav a{
@@ -41,7 +42,7 @@ body{
 
 .logo {
     width: 125px;
-    height: 125px;
+    height: auto;
 }
 
 #lightning-img {
@@ -60,16 +61,21 @@ body{
     margin-top: 30px;
     margin-bottom: 50px;
     margin-left: 250px;
-    grid-column: 1 / span 1
+    grid-column: 1 / span 1;
+    border: 10px solid #779ABA;
+    grid-row: 1 / span 1
 }
 
-#rpe-bio h1 {
+.bio-title {
     margin-top: 40px;
     text-align: center;
     background-color: #779ABA;
     padding: 10px;
     margin-left: 300px;
     margin-right: 300px;
+    width: auto;
+    font-family: Montserrat, sans-serif;
+    
 }
 
 #rpe-bio p {
@@ -77,6 +83,13 @@ body{
     box-shadow: 5px 5px 10px;
     background-color: #779ABA;
     grid-column: 2 / span 1;
+    margin-top: 50px;
+    grid-row: 1 / span 1;
+    height: 200px;
+    width: 600px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px;
+    line-height: 20px;
 }
 
 .book-grid {
@@ -85,26 +98,57 @@ body{
     gap: 100px;
 }
 
-.broken-road-card img{
+.broken-road-card {
     grid-column: 2 / span 3;
-    grid-row: 2/ span 2;
-    width: 400px;
+    grid-row: 1/ span 2;
     margin-left: 60px;
+    margin-top: 30px;
+
 }
 
 .michael-vey-card{
-    grid-column: 7 / span 3;
+    grid-column: 8 / span 3;
     grid-row: 1 / span 2;
     margin-left: -100px;
     height: 400px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.michael-vey-card img, .broken-road-card img{
+    border: 10px solid #779ABA;
 }
 
 .book-grid p{
-    grid-column: 2 / span 4;
+    grid-column: 4 / span 4;
     grid-row: 1 / span 2;
     margin-top: 60px;
+    margin-left: 30px;
     text-align: left;
-    box-shadow: 5px 5px 10px #217b7e;
-    transform: 0.5s;
+    box-shadow: 5px 5px 10px ;
     height: 250px;
+    background-color: #779ABA;
+    width: 85%;
+    font-family: Montserrat, sans-serif;
+    padding: 10px;
+    line-height: 20px;
 }
+
+.icon {
+    height: 100%;
+    width: auto;
+    max-height: 300px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #799ABA;
+    height: 150px;
+}
+
+footer p{
+    margin-top: 60px;
+}
+
+
