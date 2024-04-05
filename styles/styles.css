@@ -207,3 +207,84 @@ main {
     height: 300px;
     margin-bottom: 40px;
 }
+
+/* End of 1st subpage */
+/* Start of 2nd subpage */
+
+#first-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first-road img{
+    margin-top: 70px;
+    margin-left: 200px;
+    border: 10px solid #779ABA;
+    width: auto;
+    height: 450px;
+    box-shadow: 5px 5px 10px;
+
+}
+
+.first-road h4 {
+    margin-left: 250px;
+    font-size: x-large;
+}
+
+.broken-road-txt{
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 500px;
+    background-color: #779ABA;
+    padding: 15px;
+    height: 200px;
+    line-height: 20px;
+}
+
+.block{
+    background-color: #779ABA;
+    width: 1250px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.broken-series{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sub-road img{
+    border: 15px solid #779ABA;
+    box-shadow: 5px 5px 10px;
+    width: auto;
+    height: 500px;
+    margin-left: 40px;
+}
+
+.first-broken-road img{
+    border: 15px solid #779ABA;
+    box-shadow: 5px 5px 10px;
+    width: auto;
+    height: 500px;
+    margin-left: 40px;
+}
+
+.sub-broken-road img{
+    border: 15px solid #779ABA;
+    box-shadow: 5px 5px 10px;
+    width: auto;
+    height: 500px;
+    margin-left: 40px;
+}
+
+.summarization{
+    background-color: #779ABA;
+    padding: 15px;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 50px;
+    line-height: 20px;
+}
